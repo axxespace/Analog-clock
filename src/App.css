@@ -1,0 +1,84 @@
+#display{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: darkgray;
+    border-radius: 50%;
+    margin: 200px auto;
+}
+
+#frame{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -160px;
+}
+
+#second{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    width: 2px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -1px;
+    margin-top: -150px;
+}
+
+#minute{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    width: 6px;
+    height: 280px;
+    left: 50%;
+    top: 50%;
+    margin-left: -3px;
+    margin-top: -140px;
+}
+#hour{
+    width: 20px;
+    height: 180px;
+    position: absolute;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    margin-left: -10px;
+    margin-top: -90px;
+}
+
+#center{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    background-color: black;
+    border-radius: 30%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+#half{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+
+
+#stripe{
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    margin-left: -1px;
+}
